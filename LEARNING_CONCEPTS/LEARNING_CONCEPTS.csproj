@@ -32,7 +32,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>LEARNING_CSHARP_Learn_01.Program</StartupObject>
+    <StartupObject>LEARNING_CONCEPTS_Learn_04.Program</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
