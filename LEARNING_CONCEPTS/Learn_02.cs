@@ -38,7 +38,7 @@
 
 			System.Console.WriteLine($"Full Name: { p4.FullName } - Age: { p4.Age }");
 
-			System.Console.Write("Press [ENTER] To Exit...");
+			System.Console.Write("Press [ENTER] To Exit... ");
 			System.Console.ReadLine();
 		}
 	}

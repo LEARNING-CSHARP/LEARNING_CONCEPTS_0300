@@ -7,9 +7,19 @@
 
 		public void ShowInfo()
 		{
-			//System.Console.WriteLine($"Full Name: { FullName } - Age: { Age }");
-			System.Console.WriteLine($"I'm { FullName } and { Age } years old.");
-			//System.Console.WriteLine($"I'm { this.FullName } and { this.Age } years old.");
+			//string result =
+			//	"I'm " + FullName + " and " + Age + " years old.";
+
+			//string result =
+			//	string.Format("I'm {0} and {1} years old.", FullName, Age);
+
+			//string result =
+			//	$"I'm { FullName } and { Age } years old.";
+
+			string result =
+				$"Full Name: { FullName } - Age: { Age }";
+
+			System.Console.WriteLine(result);
 		}
 	}
 
@@ -45,7 +55,7 @@
 
 			p4.ShowInfo();
 
-			System.Console.Write("Press [ENTER] To Exit...");
+			System.Console.Write("Press [ENTER] To Exit... ");
 			System.Console.ReadLine();
 		}
 	}
