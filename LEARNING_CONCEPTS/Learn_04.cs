@@ -7,6 +7,8 @@
 
 		public void ShowInformation()
 		{
+			//string result = "I'm " + FullName + " and " + Age + " years old.";
+
 			//string result =
 			//	"I'm " + FullName + " and " + Age + " years old.";
 
