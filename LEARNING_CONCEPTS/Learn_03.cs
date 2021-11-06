@@ -6,9 +6,9 @@
 		public string FullName;
 	}
 
-	class Program
+	internal static class Program
 	{
-		static void Main(string[] args)
+		private static void Main()
 		{
 			Person p1 = new Person();
 
