@@ -22,9 +22,9 @@
 			//	$"I'm { FullName } and { Age } years old.";
 
 			string result =
-				$"Full Name: { FullName } - Age: { Age }";
+				$"Full Name: {FullName} - Age: {Age}";
 
-			System.Console.WriteLine(result);
+			System.Console.WriteLine(value: result);
 		}
 	}
 
@@ -60,7 +60,7 @@
 
 			p4.ShowInformation();
 
-			System.Console.Write("Press [ENTER] To Exit... ");
+			System.Console.Write(value: "Press [ENTER] To Exit... ");
 			System.Console.ReadLine();
 		}
 	}

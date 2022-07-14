@@ -34,7 +34,7 @@ namespace LEARNING_CONCEPTS_Learn_01
 
 			//p.Age = 20;
 
-			System.Console.Write("Press [ENTER] To Exit... ");
+			System.Console.Write(value: "Press [ENTER] To Exit... ");
 			System.Console.ReadLine();
 		}
 	}

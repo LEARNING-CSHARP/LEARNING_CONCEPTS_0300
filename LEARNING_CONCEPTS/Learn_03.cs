@@ -15,34 +15,46 @@
 			p1.Age = 20;
 			p1.FullName = "Ali Reza Alavi";
 
-			//System.Console.WriteLine($"Full Name: { p1.FullName } - Age: { p1.Age }");
-			System.Console.WriteLine($"I'm { p1.FullName } and { p1.Age } years old.");
+			//System.Console.WriteLine
+			//	(value: $"Full Name: {p1.FullName} - Age: {p1.Age}");
+
+			System.Console.WriteLine
+				(value: $"I'm {p1.FullName} and {p1.Age} years old.");
 
 			Person p2 = new Person();
 
 			p2.Age = 30;
 			p2.FullName = "Sara Ahmadi";
 
-			//System.Console.WriteLine($"Full Name: { p2.FullName } - Age: { p2.Age }");
-			System.Console.WriteLine($"I'm { p2.FullName } and { p2.Age } years old.");
+			//System.Console.WriteLine
+			//	(value: $"Full Name: {p2.FullName} - Age: {p2.Age}");
+
+			System.Console.WriteLine
+				(value: $"I'm {p2.FullName} and {p2.Age} years old.");
 
 			Person p3 = new Person();
 
 			p3.Age = 40;
 			p3.FullName = "Mohammad Ghaderi";
 
-			//System.Console.WriteLine($"Full Name: { p3.FullName } - Age: { p3.Age }");
-			System.Console.WriteLine($"I'm { p3.FullName } and { p3.Age } years old.");
+			//System.Console.WriteLine
+			//	(value: $"Full Name: {p3.FullName} - Age: {p3.Age}");
+
+			System.Console.WriteLine
+				(value: $"I'm {p3.FullName} and {p3.Age} years old.");
 
 			Person p4 = new Person();
 
 			p4.Age = 50;
 			p4.FullName = "Reza Ghorji";
 
-			//System.Console.WriteLine($"Full Name: { p4.FullName } - Age: { p4.Age }");
-			System.Console.WriteLine($"I'm { p4.FullName } and { p4.Age } years old.");
+			//System.Console.WriteLine
+			//	(value: $"Full Name: {p4.FullName} - Age: {p4.Age}");
 
-			System.Console.Write("Press [ENTER] To Exit... ");
+			System.Console.WriteLine
+				(value: $"I'm {p4.FullName} and {p4.Age} years old.");
+
+			System.Console.Write(value: "Press [ENTER] To Exit... ");
 			System.Console.ReadLine();
 		}
 	}
